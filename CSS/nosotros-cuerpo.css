@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cuerpo {
+  padding: 10px;
+  position: relative;
+  margin-top: 80px;
+}
+.cuerpo hr {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid var(--color-cuarto);
+  background: var(--color-cuarto);
+}
+.quienes_somos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+.somos-subtitulo {
+  display: block;
+  width: 100%;
+  position: sticky;
+}
+.somos-subtitulo h1 {
+  font-size: var(--subtitulo);
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.nuestro_compromiso {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.bloque {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bloque .imagen {
+  width: 100%;
+  height: 200px;
+}
+.imagen img {
+  width: inherit;
+  height: inherit;
+}
+.compromiso-subtitulo {
+  display: block;
+  margin: 20px 0;
+
+}
+.subtitulo {
+  text-align: center;
+}
+.compromiso-subtitulo hr {
+  width: 75px;
+  margin: 0 auto;
+  border: 1px solid var(--color-cuarto);
+}
+
+.parrafo {
+  text-align: justify;
+  font-size: 14px;
+}
+.enlace {
+  color: var(--color-cuarto);
+  text-decoration: none;
+}
+.caracteristicas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: auto;
+  overflow: hidden;
+}
+.caracteristicas video {
+  visibility: hidden;
+  height: auto;
+  width: 100%;
+  top: 0;
+  z-index: -10;
+  display: none;
+}
+.cajas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  position: initial;
+}
+.caracteristicas .caja {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s ease;
+  padding: 10px;
+  border: 1px dashed rgb(59, 59, 59);
+  background: rgba(255, 255, 255, 0.212);
+  height: 300px;
+  opacity: 0;
+
+}
+.caja i {
+  font-size: 32px;
+  color: var(--color-quinto);
+}
+.caja .h3 {
+  letter-spacing: 1px;
+  color: var(--color-cuarto);
+  font-size: 24px;
+  text-align: center;
+}
+.caja .parrafo {
+  text-align: justify;
+  font-size: 14px;
+}
+.caracteristicas .caja:hover {
+  box-shadow: 5px 10px 25px rgba(102, 102, 102, 0.267);
+  border: 1px dashed var(--color-cuarto);
+}
+.centrado{
+  text-align: center;
+}
+.nuestro_compromiso .bloque {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(
+      rgba(12, 4, 34, 0.459),
+      rgba(100, 100, 100, 0.397)
+    ),
+    url(../IMG/BLOG/cicatriz.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.nuestro_compromiso .bloque:nth-child(2) {
+  background: linear-gradient(
+      rgba(12, 4, 34, 0.459),
+      rgba(100, 100, 100, 0.397)
+    ),
+    url(../IMG/BLOG/heridas.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 5s ease all;
+}
+.nuestro_compromiso .bloque:hover {
+  background: linear-gradient(
+    rgba(68, 34, 161, 0.459),
+    rgba(100, 100, 100, 0.397)
+  );
+  transition: background 5s ease all;
+}
+
+.nuestro_compromiso .bloque .subtitulo,
+.nuestro_compromiso .bloque .parrafo {
+  color: rgb(255, 255, 255);
+}
+body div:nth-child(5) {
+  background: violet !important;
+  display: none !important;
+}
+.clip{
+    position: absolute;
+    clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0, 49% 30%);
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+@media (min-width: 720px) {
+    .clip{
+        height: 190px;
+
+    }
+  .cuerpo {
+    padding: 0;
+  }
+  .quienes_somos {
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .nuestro_compromiso {
+    gap: 65px;
+  }
+  .bloque {
+    max-width: 500px;
+  }
+
+  .bloque .imagen {
+    height: 300px;
+  }
+  .caracteristicas {
+    height: 450px;
+    position: relative;
+  }
+  .caracteristicas .cajas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .caracteristicas video {
+    display: block;
+    visibility: visible;
+    height: 800px;
+    width: 100%;
+    z-index: -100;
+    top: 0;
+    z-index: -10;
+  }
+}

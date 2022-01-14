@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--titulo-banner: 72px;
+--parrafo-banner: 18px;
+--boton: 18px;
+--iconos: 24px;
+--subtitulo: 32px;
+--subtitulo-android: 24px;
+--parrafo-cuerpo: 14px;
+--padding-boton: 11px 32px;
+--color-primario:#3a2d36;
+--color-secundario:#68505c;
+--color-tercero:#C08FAA;
+--color-cuarto:#BA93BA;
+--color-quinto:#3F0531;
+--color-sexto: #c4c4c4;
+}
+html{
+    font-family: poppins,'san-serif';
+}
+h1,h2,h3{
+    font-family: 'Playfair Display',sans-serif;
+}

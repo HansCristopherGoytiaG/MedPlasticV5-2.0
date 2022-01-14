@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="productos, tratamientos" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../IMG/LOGO/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS/tienda-header.css" />
+    <link rel="stylesheet" href="../CSS/nosotros-header.css" />
+    <link rel="stylesheet" href="../CSS/variables_generales.css" />
+    <link rel="stylesheet" href="../CSS/whatsapp.css" />
+    <link rel="stylesheet" href="../CSS/carrousel.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/menu.css" />
+    <link rel="stylesheet" href="../CSS/inicio-header.css" />
+    <link rel="stylesheet" href="../CSS/tienda-cuerpo.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../JS/paginacion.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c49233b661.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tienda - Med Plastic</title>
+  </head>
+  <body>
+    <header class="cabecera-principal">
+      <div class="slider-contenedor">
+        <div class="miSlider fade">
+          <img src="../IMG/PRODUCTOS/BANNER1.jpg" alt="tratamientos de piel" />
+          <div class="imagenes-contenido">
+            <h2 class="subtitulo-banner-tienda">
+              Mientras seas constante con tu tratamiento mejores resultados
+              obtendrás.
+            </h2>
+            <hr />
+            <p class="parrafo"></p>
+          </div>
+        </div>
+        <div class="miSlider fade">
+          <img src="../IMG/PRODUCTOS/BANNER2.jpg" alt="tratamientos de piel" />
+          <div class="imagenes-contenido">
+            <h2 class="subtitulo-banner-tienda">
+              Nada envejece más tu piel que el sol. Usa protector solar.
+            </h2>
+            <hr />
+            <p class="parrafo"></p>
+          </div>
+        </div>
+        <div class="miSlider fade">
+          <img src="../IMG/PRODUCTOS/CICATRIZ.png" alt="tratamientos de piel" />
+          <div class="imagenes-contenido">
+            <h2 class="subtitulo-banner-tienda">
+              Mejora el aspecto de tus cicatrices e hidrata tu piel.
+            </h2>
+            <hr />
+            <p class="parrafo"></p>
+          </div>
+        </div>
+        <div class="direcciones">
+          <a href="#!" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#!" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+          <span class="barra active" onclick="posicionSlide(1)"></span>
+          <span class="barra" onclick="posicionSlide(2)"></span>
+          <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+      </div>
+      <nav class="nav">
+        <div class="logo">
+          <a href="medplasticpe.com">
+            <img src="IMG/LOGO/Logo.png" alt="tratamientos" class="logo__img" />
+           </a>
+          <span class="med">Med Plastic</span>
+        </div>
+        <div class="navegacion">
+          <!-- <div class="contenido-boton">
+                    <a href="tienda.html" class="boton">Comprar ahora</a>
+                </div> -->
+          <label for="#" id="botonmenu">
+            <i class="fas fa-bars navbar"><span> Menu</span></i>
+          </label>
+          <ul class="menu">
+            <i class="fas fa-times cross"></i>
+            <li class="">
+              <a href="../index.html" class="enlaces">Inicio</a>
+            </li>
+            <li class="">
+              <a href="nosotros.html" class="enlaces">Sobre Nosotros</a>
+            </li>
+            <li class="pestaña-active">
+              <a href="tienda.html" class="enlaces">Tienda</a>
+            </li>
+            <li class=""><a href="blog.html" class="enlaces">Blog</a></li>
+            <li class="">
+              <a href="contacto.html" class="enlaces">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="cuerpo">
+      <div class="sobre-tienda">
+        <h1>Compras en línea</h1>
+        <hr />
+      </div>
+      <div class="pagina" id="tab1">
+        <div class="fila">
+          <div class="producto scale">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/BLOQUEADOR.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/bloqueador_formulado.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Bloqueador formulado para lesión específica</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale1">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/producto2.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/reconstituyente_tejidos.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Fórmula Reconstituyente de tejidos 50gr.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale2">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/SILICONA_MEDICADA.png"
+                class="imagen-3" alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/silicona_medicada.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Silicona medicada</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="producto scale3">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/JABON240.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/jabon_dermolipador.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Jabón dermolimpiador</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale4">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/HIDRAXDHERMUX.png"
+                class="imagen-5" alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/dhermux.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Dhermux Hidrax 60 gr.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale5">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/DHERMUXPOTE.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/dhermux120.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Dhermux Hidrax 120 gr.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="tabs" id="tabs">
+          <div class="">
+            <li class="page active">
+              <a href="#tab1" class="paginacion__boton"
+                ><span class="tab-text">1</span></a
+              >
+            </li>
+          </div>
+          <div class="" id="tabs">
+            <li class="page">
+              <a href="#tab2" class="paginacion__boton"
+                ><span class="tab-text">2</span></a
+              >
+            </li>
+          </div>
+          <div class="" id="tabs">
+            <li class="page">
+              <a href="#tab3" class="paginacion__boton"
+                ><span class="tab-text">3</span></a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="pagina" id="tab2">
+        <div class="fila">
+          <div class="producto scale6">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/BARRASILICONA.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/barra_silicona.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Barra de silicona medicada</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale7">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/producto8.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/lamina_silicona.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Lámina de Silicona</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale8">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/LUMED.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a href="informacion-producto/lumed.html" class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Lumed</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="producto scale9">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/SCARMDMASAJEADOR.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/scar_masajeador.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Scar MD masajeador</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale10">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/SCARFADE.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/scarfade.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">ScarFade</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale11">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/BETAGRANULOS.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/betagranulos.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Betagránulos</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="tabs" id="tabs">
+          <div class="paginacion__numero">
+            <li class="page">
+              <a href="#tab1" class="paginacion__boton"
+                ><span class="tab-text">1</span></a
+              >
+            </li>
+          </div>
+          <div class="paginacion__numero" id="tabs">
+            <li class="page active">
+              <a href="#tab2" class="paginacion__boton"
+                ><span class="tab-text">2</span></a
+              >
+            </li>
+          </div>
+          <div class="paginacion__numero" id="tabs">
+            <li class="page">
+              <a href="#tab3" class="paginacion__boton"
+                ><span class="tab-text">3</span></a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="pagina" id="tab3">
+        <div class="fila">
+          <div class="producto scale12">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/SILVERCARE.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/silvercare.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">SilverCare</h3>
+              </div>
+            </div>
+          </div>
+          
+          <div class="producto scale13">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/FORMULADETEJIDOS.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/formula_reconstituyente_tubo.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Fórmula Reconstituyente de tejidos 60gr.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale14">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/SCARMDGEL.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/scar_md.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Scar MD Gel</h3>
+              </div>
+            </div>
+          </div>
+          <div class="producto scale15">
+            <figure class="imagen">
+              <img
+                src="../IMG/PRODUCTOS/Productos-Tienda/XERAGEL.png"
+                alt="producto medplastic"
+              />
+              <div class="compra-hover">
+                <div class="contenedor-botones">
+                  <a
+                    href="informacion-producto/xeragel.html"
+                    class="boton-compra"
+                    >Ver mas</a
+                  >
+                </div>
+              </div>
+            </figure>
+            <div class="informacion-producto">
+              <div class="estrellitas">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="detalle">
+                <h3 class="h3">Xeragel</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="tabs" id="tabs">
+          <div class="paginacion__numero">
+            <li class="page">
+              <a href="#tab1" class="paginacion__boton"
+                ><span class="tab-text">1</span></a
+              >
+            </li>
+          </div>
+          <div class="paginacion__numero" id="tabs">
+            <li class="page">
+              <a href="#tab2" class="paginacion__boton"
+                ><span class="tab-text">2</span></a
+              >
+            </li>
+          </div>
+          <div class="paginacion__numero" id="tabs">
+            <li class="page active">
+              <a href="#tab3" class="paginacion__boton"
+                ><span class="tab-text">3</span></a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div style="height: 150px; overflow: hidden;">
+      <svg
+        viewBox="0 0 500 150"
+        preserveAspectRatio="none"
+        style="height: 100%; width: 100%;"
+      >
+        <path
+          d="M0.00,49.98 C126.69,95.23 349.20,-49.98 506.49,82.41 L500.00,150.00 L-9.31,156.42 Z"
+        ></path>
+      </svg>
+    </div>
+
+    <footer class="pie-pagina">
+      <div class="footer-informacion">
+        <div class="informacion-columna">
+          <h3 class="h3">Sobre Med Plastic</h3>
+          <div class="parrafo-cuerpo">
+            En Med Plastic nos preocupamos por el proceso de mejora de tus
+            lesiones es por ello que te ofrecemos los tratamientos más avanzados
+            del mercado acompañandote con asesores especializados.
+          </div>
+          <div class="informacion-fila">
+            <span class="parrafo-cuerpo"
+              ><i class="far fa-envelope"></i> medplasticperu@gmail.com</span
+            >
+          </div>
+        </div>
+        <div class="informacion-columna">
+          <h3 class="h3">Tratamiento</h3>
+          <ul class="menu-pie">
+            <li><a href="quemaduras.html" class="enlace">Quemaduras</a></li>
+            <li><a href="cicatrices.html" class="enlace">Cicatrices</a></li>
+            <li><a href="tipos_piel.html" class="enlace">Tipos de piel</a></li>
+            <li><a href="heridas.html" class="enlace">Heridas</a></li>
+          </ul>
+        </div>
+        <div class="informacion-columna">
+          <h3 class="h3">Horario de atención</h3>
+          <div class="dias">
+            <div class="dia">
+              <span class="span">Lunes a Domingo</span>
+              <span class="span">24 Horas</span>
+            </div>
+
+            <div class="dia">
+              <span class="span">Asesor 1</span>
+              <span class="parrafo-cuerpo"
+                ><i class="fas fa-mobile-alt"></i> (+51) 935 065 302</span
+              >
+            </div>
+            <div class="dia">
+              <span class="span">Asesor 2</span>
+              <span class="parrafo-cuerpo"
+                ><i class="fas fa-mobile-alt"></i> (+51) 981 476 933</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="informacion-columna">
+          <h3 class="h3">Redes Sociales</h3>
+          <div class="iconos-redes__footer">
+            <div class="iconos">
+              <div class="facebook">
+                <a
+                  href="https://www.facebook.com/Productosmedplastic"
+                  class="fab fa-facebook-f"
+                  rel="nofollow"
+                  target="_blank"
+                  ><span class="span">Medplastic</span></a
+                >
+              </div>
+              <div class="instagram">
+                <a
+                  href="https://www.instagram.com/medplastic_/"
+                  class="fab fa-instagram"
+                  rel="nofollow"
+                  target="_blank"
+                  ><span class="span">Medplastic</span></a
+                >
+              </div>
+              <div class="tiktok">
+                <a
+                  href="https://www.tiktok.com/@med.plastic"
+                  class="fab fa-tiktok"
+                  rel="nofollow"
+                  target="_blank"
+                  ><span class="span">@med.plastic</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pie">
+        <h3 class="h3">Derechos Reservados por MedPlasticpe.com</h3>
+      </div>
+    </footer>
+
+    <div class="whatsapp">
+      <div class="texto">
+        <span
+          >¿Necesitas ayuda?
+          <h4>Chatea con nosotros</h4></span
+        >
+      </div>
+      <button class="fab fa-whatsapp" id="whatsapp"></button>
+    </div>
+    <div class="contenedor-whatsapp" id="contenido">
+      <div class="informacion">
+        <i class="fab fa-whatsapp"></i>
+        <div class="columna2">
+          <h3 class="">WhatsApp</h3>
+          <p class="parrafo">
+            ¡Hola! Haga clic en uno de nuestros miembros a continuación para
+            chatear en WhatsApp
+          </p>
+        </div>
+      </div>
+      <a class="box" target="_blank" href="https://wa.link/fjsk9f">
+        <div class="atencion">
+          <i class="fab fa-whatsapp"></i>
+          <h3 class="">Asesor 1</h3>
+        </div>
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a class="box" target="_blank" href="https://wa.link/vum7pj">
+        <div class="atencion">
+          <i class="fab fa-whatsapp"></i>
+          <h3 class="">Asesor 2</h3>
+        </div>
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+    <script src="../JS/animaciones.js"></script>
+    <script src="../JS/whatsapp.js"></script>
+    <script src="../JS/eventos_animacion.js"></script>
+  </body>
+</html>

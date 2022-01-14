@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-btn{
+    width: auto;
+    height: auto;
+    padding: 10px 15px;
+    background: var(--color-quinto);
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-radius: 2px;
+    z-index: 9;
+    transition: .5s ease;
+    color: #fff;
+}
+.background-btn:hover{  
+    background: #613861;
+}
+.background-btn i{
+    font-size: 18px;
+    color: #fff;
+}
+.menu-interno{
+
+}
+.vinetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    height: 200px;
+    background: linear-gradient( rgba(130, 119, 170, 0.815), rgba(150, 150, 150, 0.692));
+    backdrop-filter: blur(10px);
+    transform: translateY(-50%) scale(0);
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.vinetas.blog-menu{
+    transform: translateY(-50%) scale(1);
+    visibility: visible;
+    opacity: 9;
+    z-index: 99;
+    transition: .5s;
+}
+.vinetas i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 16px;
+    z-index: 9999;
+    transition: .5s;
+}
+.vinetas i:hover{
+    background: var(--color-cuarto);
+
+}
+.vinetas li{
+    text-align: left;
+    list-style: none;
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+    transition:  .5s  background;
+}
+.vinetas li:hover{
+    background: var(--color-tercero);
+
+}
+.vinetas li .enlace{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    /* background: lightcyan; */
+}

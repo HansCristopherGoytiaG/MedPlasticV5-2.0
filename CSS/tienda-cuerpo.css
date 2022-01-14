@@ -1,0 +1,228 @@
+.subtitulo-banner-tienda {
+  font-size: 24px;
+}
+.cuerpo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagina {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.sobre-tienda {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+.sobre-tienda h1 {
+  text-align: center;
+  line-height: 2;
+}
+.sobre-tienda hr {
+  width: 75px;
+  height: 2px;
+  background: var(--color-cuarto);
+  border: 2px solid var(--color-cuarto);
+  margin: 0 auto 20px auto;
+}
+.fila {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+.producto {
+  width: 100%;
+  border: 2px solid #0022;
+  max-width: 350px;
+  margin-bottom: 35px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+
+.producto::after {
+  position: absolute;
+  content: "";
+  width: 200%;
+  height: 500px;
+  border-radius: 50%;
+  bottom: -460px;
+  background: rgb(133, 106, 169, 0.4);
+  backdrop-filter: blur(5px);
+}
+.compra-hover {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  right: 0%;
+  bottom: 0;
+  background: #3f05316b;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease all;
+}
+.producto:hover .compra-hover {
+  left: 0%;
+}
+
+.contenedor-botones {
+  border: 2px solid #fff;
+  background: transparent;
+  padding: 5px 35px;
+  border-radius: 5px;
+  transition: 0.5s all;
+  transform: scale(0);
+  transition: 0.8s ease;
+  opacity: 0;
+}
+
+.contenedor-botones .boton-compra {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.producto:hover .contenedor-botones {
+  transform: scale(1);
+  opacity: 9;
+}
+.contenedor-botones:hover {
+  backdrop-filter: blur(10px);
+  background: #cacaca94;
+}
+.informacion-producto,
+.detalle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0px auto 0 auto;
+}
+.detalle .h3 {
+  text-align: center;
+  color: #202020;
+  font-weight: bold;
+  font-family: poppins,'san-serif';
+
+}
+.detalle span {
+  color: var(--color-quinto);
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.estrellitas{
+  margin-top: 60px;
+}
+.estrellitas i {
+  color: rgb(133, 106, 169, 0.4);
+  font-size: 12px;
+}
+.imagen {
+  width: 100%;
+  height: 200px;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen img {
+  width: 200px;
+  height: 200px;
+}
+.imagen-3{
+  width: 150px !important;
+}
+.imagen-5{
+  width: 140px !important;
+  height: 240px;
+}
+.tabs {
+  display: inline-flex;
+  justify-content: flex-end;
+  background: var(--color-cuarto);
+  list-style: none;
+  margin: 20px auto 20px auto;
+  margin-right: 55%;
+  transform: translateX(50%);
+  box-shadow: 5px 5px 5px #24242452;
+}
+.tabs li {
+  transition: 0.5s ease all;
+}
+.tabs li:hover {
+  background: var(--color-quinto);
+}
+ul.tabs li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  padding: 15px 20px;
+}
+
+ul.tabs li a .tab-text {
+  margin-left: 8px;
+}
+
+@media (min-width: 720px) {
+  .subtitulo-banner-tienda {
+    font-size: 48px;
+  }
+  .producto {
+    justify-content: center;
+    padding-bottom: 50px;
+    height: 500px;
+    overflow: hidden;
+  }
+  .estrellitas{
+    margin-top: 0px;
+  }
+  .imagen {
+    width: inherit;
+    height: 350px ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+ .imagen img{
+   width: 280px;
+   height: 300px;
+ }
+ .imagen-3{
+   width: 200px !important;
+ }
+ .imagen-5{
+  width: 180px !important;
+  height: 240px;
+ }
+  .tabs {
+    float: right;
+    margin-right: 50%;
+
+  }
+  .informacion,.detalle{
+    margin-top: 0;
+  }
+}

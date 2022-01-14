@@ -1,0 +1,213 @@
+i{
+    text-decoration: none !important;
+    border: none;
+}
+.whatsapp{
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: movimiento-top 1s;
+    font-family: poppins,'san-serif';
+}
+
+.whatsapp .texto{
+    position: fixed;
+    content: '';
+    right: 75px;
+    bottom: 25px;
+    font-size: 14px;
+    background: #f5f7f9;
+    padding: 5px 10px;
+    z-index: 9;
+    transform: translateY(-20%);
+    animation: opacity 1s;
+    font-family: poppins,'san-serif';
+    visibility: hidden;
+
+}
+.texto::before{
+    position: absolute;
+    content: '';
+    border-left: 8px solid #f1f1f1;
+    border-right: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    display: none;
+}
+.texto a span{
+    color: #fff;
+    text-decoration: none;
+}
+.whatsapp .fab{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    font-size: 28px;
+    color: #ffffff;
+    background: #25D366;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 9;
+    border: none;
+    outline: none;
+    transition: .5s ease all;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.whatsapp .fab:hover{
+    background: #4ceb86;
+
+}
+.whatsapp .fab:active{
+    transform: rotate(360deg);
+}
+.contenedor-whatsapp{
+    position: fixed;
+    right: 0;
+    bottom: 110px;
+    background: #ffffff;
+    z-index: 99;
+    max-width: 320px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #7474749c;
+    transition: .5s ease all;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedor-whatsapp.aparece{
+    display: inline-block;
+    transition: .5s ease all;
+    opacity: 9;
+    visibility: visible;
+}
+.informacion{
+    padding: 10px 10px;
+    background: #25D366;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    place-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.informacion i{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+.informacion .columna2 h3{
+    font-size: 16px;
+    color: #f5f5f5;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: poppins,'san-serif';
+
+}
+.informacion .columna2 p{
+    font-size: 12px;
+    color: #f5f5f5 !important;
+    font-family: poppins,'san-serif';
+
+}
+.contenedor-whatsapp .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 80px;
+    background: #f5f7f9;
+    width: 100%;
+    margin: 10px auto 10px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    max-width: 260px;
+    border-left: 5px solid #1fb857;
+    transition: .5s ease all;
+    text-decoration: none;
+}
+.box:hover{
+    background: #dadada;
+
+}
+.box:nth-child(4){
+    margin-bottom: 20px;
+}
+.contenedor-whatsapp .box i{
+    color: #ffffff;
+    background: #25D366;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.box .atencion{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 10px;
+    z-index: 4;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+
+}
+.atencion h3{
+    font-weight: bold;
+    color: #747474;
+    font-size: 12px;
+    transform: translateY(20%);
+    font-family: poppins,'san-serif';
+
+}
+.atencion i{
+    color: #ffffff;
+    font-size: 24px;
+    background: #25D366;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+@media(min-width:750px){
+    .contenedor-whatsapp{
+        right: 5px;
+
+    }
+    .whatsapp .fab:active{
+        transform: rotate(-360deg);
+        background: #747474;
+    }
+    .whatsapp .fab{
+        padding: 10px;
+        font-size: 32px;
+     
+    }
+   
+    .whatsapp .texto{
+        right: 100px;
+        bottom: 30px;
+        display: block;
+    }
+    .texto{
+        display: block;
+        bottom: 15px !important;
+
+    }
+    .texto::before{
+        display: block;
+        right: -15px;
+    }
+}
