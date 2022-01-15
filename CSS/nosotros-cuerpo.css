@@ -88,12 +88,12 @@
   gap: 15px;
   height: auto;
   overflow: hidden;
+  z-index: 99;
 }
 .caracteristicas video {
   visibility: hidden;
   height: auto;
   width: 100%;
-  top: 0;
   z-index: -10;
   display: none;
 }
@@ -224,8 +224,10 @@ body div:nth-child(5) {
     height: 300px;
   }
   .caracteristicas {
-    height: 450px;
+    height: 500px;
     position: relative;
+    z-index: 9;
+    overflow: hidden;
   }
   .caracteristicas .cajas {
     position: absolute;
@@ -233,14 +235,13 @@ body div:nth-child(5) {
     left: 0;
     right: 0;
     bottom: 0;
+    height: auto;
   }
   .caracteristicas video {
     display: block;
     visibility: visible;
-    height: 800px;
+    height: 1000px;
     width: 100%;
-    z-index: -100;
-    top: 0;
     z-index: -10;
   }
 }
