@@ -218,6 +218,7 @@ body div:nth-child(5) {
   }
   .bloque {
     max-width: 500px;
+    justify-content: center;
   }
 
   .bloque .imagen {
