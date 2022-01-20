@@ -23,7 +23,7 @@
   window.addEventListener("scroll", function () {
     let animation1 = document.querySelector(".movimiento-bottom");
     let posicionObj1 = animation1.getBoundingClientRect().top;
-    let pantalla1 = window.innerHeight / 2;
+    let pantalla1 = window.innerHeight / 1;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "movimiento-bottom 1.5s ease";
@@ -34,7 +34,7 @@
   window.addEventListener("scroll", function () {
     let animation1 = document.querySelector(".movimiento-bottom1");
     let posicionObj1 = animation1.getBoundingClientRect().top;
-    let pantalla1 = window.innerHeight / 2;
+    let pantalla1 = window.innerHeight / 1;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "movimiento-bottom 1.5s ease";
@@ -45,7 +45,7 @@
   window.addEventListener("scroll", function () {
     let animation1 = document.querySelector(".movimiento-bottom2");
     let posicionObj1 = animation1.getBoundingClientRect().top;
-    let pantalla1 = window.innerHeight / 2;
+    let pantalla1 = window.innerHeight / 1;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "movimiento-bottom 1.5s ease";
@@ -56,10 +56,42 @@
   window.addEventListener("scroll", function () {
     let animation1 = document.querySelector(".movimiento-bottom3");
     let posicionObj1 = animation1.getBoundingClientRect().top;
-    let pantalla1 = window.innerHeight / 2;
+    let pantalla1 = window.innerHeight / 1;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "movimiento-bottom 1.5s ease";
+      animation1.style.opacity = "9";
+
+    }
+  });
+  window.addEventListener("scroll", function () {
+    let animation1 = document.querySelector(".movimiento-top4");
+    let posicionObj1 = animation1.getBoundingClientRect().top;
+    let pantalla1 = window.innerHeight / 1;
+    console.log(posicionObj1);
+    if (posicionObj1 < pantalla1) {
+      animation1.style.animation = "movimiento-top 1.5s ease";
+      animation1.style.opacity = "9";
+    }
+  });
+  window.addEventListener("scroll", function () {
+    let animation1 = document.querySelector(".movimiento-top5");
+    let posicionObj1 = animation1.getBoundingClientRect().top;
+    let pantalla1 = window.innerHeight / 1;
+    console.log(posicionObj1);
+    if (posicionObj1 < pantalla1) {
+      animation1.style.animation = "movimiento-top 1.5s ease";
+      animation1.style.opacity = "9";
+
+    }
+  });
+  window.addEventListener("scroll", function () {
+    let animation1 = document.querySelector(".movimiento-top6");
+    let posicionObj1 = animation1.getBoundingClientRect().top;
+    let pantalla1 = window.innerHeight / 1;
+    console.log(posicionObj1);
+    if (posicionObj1 < pantalla1) {
+      animation1.style.animation = "movimiento-top 1.5s ease";
       animation1.style.opacity = "9";
 
     }

@@ -51,7 +51,7 @@
 }
 .bloque .imagen {
   width: 100%;
-  height: 180px;
+  height: 200px;
 }
 .imagen iframe {
   width: inherit;
@@ -144,45 +144,24 @@
 .centrado{
   text-align: center;
 }
-.nuestro_compromiso .bloque {
-  max-width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background: linear-gradient(
-      rgba(12, 4, 34, 0.459),
-      rgba(100, 100, 100, 0.397)
-    ),
-    url(../IMG/BLOG/cicatriz.png);
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+.nuestro_compromiso{
+  width: 100%;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
-  padding: 50px;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
-.nuestro_compromiso .bloque:nth-child(2) {
-  background: linear-gradient(
-      rgba(12, 4, 34, 0.459),
-      rgba(100, 100, 100, 0.397)
-    ),
-    url(../IMG/BLOG/heridas.jpg);
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background 5s ease all;
+.nuestro_compromiso h3{
+  margin-top: 20px;
+  max-width: 500px;
+  font-size: 32px;
+  letter-spacing: 1px;
 }
-.nuestro_compromiso .bloque:hover {
-  background: linear-gradient(
-    rgba(68, 34, 161, 0.459),
-    rgba(100, 100, 100, 0.397)
-  );
-  transition: background 5s ease all;
-}
-
-.nuestro_compromiso .bloque .subtitulo,
-.nuestro_compromiso .bloque .parrafo {
-  color: rgb(255, 255, 255);
+.nuestro_compromiso iframe{
+      width: 100%;
+      max-width: 500px;
+      height: 280px;
 }
 body div:nth-child(5) {
   background: violet !important;
@@ -210,19 +189,20 @@ body div:nth-child(5) {
   }
   .quienes_somos {
     gap: 40px;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
   .nuestro_compromiso {
     gap: 65px;
   }
   .bloque {
-    max-width: 500px;
+    height: 370px;
+    max-width: 600px;
     justify-content: center;
   }
 
   .bloque .imagen {
-    height: 280px;
+    height: 340px;
   }
   .caracteristicas {
     height: 500px;

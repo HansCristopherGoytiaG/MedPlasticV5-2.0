@@ -16,7 +16,6 @@
 }
 .cuerpo > .fila-cuerpo:nth-child(6) .informacion-cuerpo{
     background: var(--color-quinto) !important;
-
 }
 
 .fila-cuerpo{
