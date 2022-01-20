@@ -98,11 +98,19 @@ hr{
     border-radius: 5px;
     font-size: 16px;
     text-decoration: none;
-    border: 2px solid rgb(87, 87, 87);
+    border: 2px solid rgb(255, 255, 255);
     transition: .5s ease;
 }
-.contenido__boton:hover{
-    background: rgb(128, 128, 128);
+.boton-borde-morado:hover{
+    border: 2px solid var(--color-quinto);
+    color: var(--color-quinto) !important;
+}
+.boton-borde{
+    border: 2px solid var(--color-cuarto);
+}
+.boton-borde:hover{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
 }
 .articulos{
     width: 100%;

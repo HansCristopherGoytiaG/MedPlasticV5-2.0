@@ -154,7 +154,7 @@ html{
     width: 100%;
     backdrop-filter: blur(10px);
 }
-h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,img::selection,li::selection,a::selection,ul::selection,p::selection,span::selection,label::selection,b::selection,video::selection,i::selection,p::selection{
+h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,img::selection,li::selection,a::selection,ul::selection,p::selection,span::selection,label::selection,b::selection,video::selection,i::selection,p::selection,video::selection,iframe::selection,div::selection,br::selection,input::selection,textarea::selection,button::selection{
     background: var(--color-quinto);
     color: white;
 }
@@ -212,6 +212,7 @@ h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,img::selec
     .menu li{
         padding: 10px 15px;
         width: auto !important;
+        height: 92px;
     }
     .menu li .enlaces{
         font-weight: bold;

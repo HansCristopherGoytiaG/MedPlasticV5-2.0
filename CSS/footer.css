@@ -114,6 +114,7 @@ font-size: 14px;
    border-radius: 50%;
    height: 50px;
    width: 50px;
+   transition: background .5s;
 }
 .iconos div:nth-child(2){
     background: linear-gradient(
@@ -125,8 +126,25 @@ font-size: 14px;
         #bc1888 100%
       );
     }
+    .iconos div:nth-child(2):hover{
+        background: linear-gradient(
+            45deg,
+            #ff9e37 0%,
+            #fd7443 25%,
+            #f72d4b 50%,
+            #f32b7b 75%,
+            #e61ea6 100%
+          );
+        }
+
 .iconos div:nth-child(3){
     background: #ff0050;
+}
+.iconos div:nth-child(3):hover{
+    background: #c40340;
+}
+.iconos div:nth-child(1):hover{
+    background: #5782e0;
 }
 .iconos div a{
     text-decoration: none;
