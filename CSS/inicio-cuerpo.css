@@ -94,9 +94,15 @@ hr{
     text-align: center;
     margin-bottom: 20px;
     color: var(--color-primario);
-    padding: 3px 25px;
+    padding: 5px 25px;
     border-radius: 5px;
     font-size: 16px;
+    text-decoration: none;
+    border: 2px solid rgb(87, 87, 87);
+    transition: .5s ease;
+}
+.contenido__boton:hover{
+    background: rgb(128, 128, 128);
 }
 .articulos{
     width: 100%;
@@ -105,8 +111,6 @@ hr{
     flex-flow: row wrap;
     margin-bottom: 20px;
 }
-
-
 .articulo__contenido{
     display: flex;
     flex-flow: row wrap;
