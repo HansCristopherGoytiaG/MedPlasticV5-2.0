@@ -37,7 +37,7 @@ opacity: 9;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 25px;
 }
 .producto-informacion .columna:nth-child(2){
    display: none;
@@ -73,7 +73,20 @@ opacity: 9;
     color: var(--color-quinto);
     font-size: 16px;
 }
-
+.cerrar{
+    margin-top: -10px;
+    border: 3px solid #BDBEC0;
+    border-radius: 50%;
+    padding: 3px 8px;
+    transition: .5s;
+    font-size: 10px !important;
+    font-weight: bolder !important;
+    color:  #BDBEC0 !important;
+}
+.cerrar:hover{
+    background: var(--color-cuarto);
+    color: #fff !important;
+}
 @media(min-width:750px){
     .producto-informacion{
         padding: 0;
