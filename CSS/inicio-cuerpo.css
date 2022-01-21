@@ -257,6 +257,7 @@ transition: .5s ease;
     background: linear-gradient(#6216b8bb, rgb(131, 120, 158));
 }
 .producto{
+    overflow: hidden;
     width: 100%;
     display: flex;
     flex-flow: row wrap;

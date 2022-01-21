@@ -48,10 +48,11 @@ flex-direction: row-reverse;
     margin-top: 5px;
     margin-bottom: 15px;
     width: 75px;
+    border: 2px solid;
 }
 .fila-cuerpo:nth-child(2) .informacion-cuerpo .columna2 hr,.fila-cuerpo:nth-child(4) .informacion-cuerpo .columna2 hr, .fila-cuerpo:nth-child(6) .informacion-cuerpo .columna2 hr{
 
-border: 1px solid white;
+border: 2px solid white;
 }
 .fila-cuerpo h3,.fila-cuerpo .parrafo{
     margin-bottom: 15px;
