@@ -5,8 +5,7 @@
 }
 .cuerpo {
   padding: 10px;
-  /* position: relative; */
-  margin-top: 80px;
+  margin-top: 20px;
 }
 .cuerpo hr {
   width: 90%;
@@ -159,7 +158,7 @@
   letter-spacing: 1px;
   font-weight: normal;
   text-align: justify;
-  
+  opacity: 0;
 }
 .nuestro_compromiso iframe{
       width: 100%;
