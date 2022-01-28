@@ -10,7 +10,7 @@
     background: var(--color-quinto);
     position: fixed;
     top: 50%;
-    right: 0px;
+    right: 5px;
     transform: translateY(-50%);
     cursor: pointer;
     border-radius: 2px;

@@ -7,15 +7,15 @@
     gap: 15px;
 }
 .cuerpo > .fila-cuerpo:nth-child(2) .informacion-cuerpo{
-    background: var(--color-quinto) !important;
+    background: #31124e !important;
 
 }
 .cuerpo > .fila-cuerpo:nth-child(4) .informacion-cuerpo{
-    background: var(--color-quinto) !important;
+    background: #31124e !important;
 
 }
 .cuerpo > .fila-cuerpo:nth-child(6) .informacion-cuerpo{
-    background: var(--color-quinto) !important;
+    background: #31124e !important;
 }
 
 .fila-cuerpo{

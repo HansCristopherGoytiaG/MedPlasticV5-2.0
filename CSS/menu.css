@@ -217,6 +217,7 @@ h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,img::selec
     .menu li .enlaces{
         font-weight: 500;
         letter-spacing: 1px;
+
     }
     .menu.opacidad{
         top: 130px;
