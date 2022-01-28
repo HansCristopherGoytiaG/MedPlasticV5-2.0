@@ -7,6 +7,7 @@ html{
 
     width: 100%;
     margin: 0 auto;
+    padding: 0 10px;
 }
 .articulos{
     display: flex;
@@ -86,9 +87,8 @@ font-size: 18px;
     outline: none;
     border: 2px solid var(--color-cuarto);
     font-size: 14px;
-    background: #ffffffa8;
+    background: #ffffffc9;
     border-radius: 5px;
-    backdrop-filter: blur(10px);
     letter-spacing: 1px;
     font-family: poppins,'san-serif';
     z-index: 9;
@@ -99,7 +99,7 @@ input::placeholder,textarea::placeholder{
     color: var(--color-quinto);
 }
 .boton-envio{
-    width: 100%;
+    width: 90%;
     padding: 25px 25px;
     margin: 10px 0;
     font-family: poppins,'san-serif';

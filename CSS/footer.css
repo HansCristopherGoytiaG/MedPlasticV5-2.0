@@ -66,8 +66,7 @@ font-size: 14px;
     flex-direction: column;
 }
 .menu-pie li{
-    
-    list-style: none;
+    color: #fff;
     padding: 5px 0;
     transition: .5s ease all;
 }
@@ -243,5 +242,4 @@ path{
         text-align: left !important;
 
     }
-
 }

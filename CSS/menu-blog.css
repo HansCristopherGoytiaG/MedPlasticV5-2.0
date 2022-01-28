@@ -9,9 +9,9 @@
     padding: 10px 15px;
     background: var(--color-quinto);
     position: fixed;
-    top: 50%;
+    top: 40%;
     right: 5px;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     cursor: pointer;
     border-radius: 2px;
     z-index: 9;
