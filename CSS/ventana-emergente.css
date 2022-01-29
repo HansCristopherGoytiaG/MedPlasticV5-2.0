@@ -38,6 +38,7 @@ opacity: 9;
     align-items: center;
     flex-wrap: wrap;
     gap: 25px;
+    padding: 5px;
 }
 .producto-informacion .columna:nth-child(2){
    display: none;

@@ -33,13 +33,16 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation:  scale-animation 1s linear;
 }
 .logo span{
     color: #f1f1f1 !important;
     transition: .5s ease all;
-    font-size: var(--cuerpo-parrafo);
+    font-size: 18px;
     font-weight: bold;
     font-family: 'Chicken pie', cursive;
+    animation:  scale-animation 1s linear;
+
 }
 .logo span.background{
     color: #f1f1f1 !important;
@@ -53,6 +56,8 @@ html{
     align-items: center;
     justify-content: center;
     gap: 15px;
+    animation:  scale-animation 1s linear;
+
 }
 .navegacion #botonmenu .navbar{
     color: #f1f1f1f6 !important;
@@ -134,6 +139,8 @@ html{
 
     background: var(--color-cuarto);
     height: 80px;
+    animation:  opacity 1s linear;
+    animation-delay:  1s;
 }
 .pestaña-active .enlaces{
     color: #fff !important;

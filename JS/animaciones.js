@@ -23,7 +23,7 @@
   window.addEventListener("scroll", function () {
     let animation1 = document.querySelector(".movimiento-bottom");
     let posicionObj1 = animation1.getBoundingClientRect().top;
-    let pantalla1 = window.innerHeight / 1;
+    let pantalla1 = window.innerHeight / 1.5;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "movimiento-bottom 1.5s ease";
@@ -102,7 +102,7 @@
     let pantalla1 = window.innerHeight / 2;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
-      animation1.style.animation = "opacity 1.5s ease";
+      animation1.style.animation = "opacity 2s ease";
       animation1.style.opacity = "9";
 
     }

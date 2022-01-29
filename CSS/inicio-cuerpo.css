@@ -1,6 +1,7 @@
 @import url(variables_generales.css);
 .cuerpo{
     width: 100%;
+
 }
 .cuerpo-sobre{
     width: 100%;
@@ -118,6 +119,7 @@ hr{
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 .articulo__contenido{
     display: flex;
@@ -364,6 +366,8 @@ transition: .5s ease;
     max-width: 560px;
     height: 315px;
     opacity: 0;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 @media(min-width: 720px){
     .sobre-lema{

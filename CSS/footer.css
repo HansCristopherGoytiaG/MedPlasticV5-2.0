@@ -94,6 +94,14 @@ font-size: 14px;
     font-weight: normal;
     font-size: 14px;
 }
+.pie .h3 a{
+    color: var(--color-cuarto);
+    text-decoration: none;
+    transition: .5s ease;
+}
+.pie .h3 a:hover{
+    color: #c5c5c5;
+}
 .iconos-redes__footer{
     display: flex;
     justify-content: center;
