@@ -397,8 +397,7 @@ transition: .5s ease;
     right: 0;
     bottom: 0;
     opacity: .1;
-    transform: translateY(-0%) !important;
-    transform: translateX(25%) !important;
+    transform: translateY(50%) !important;
     width: 100%;
     min-width: 50px;
     max-width: 200px;
@@ -464,7 +463,7 @@ transition: .5s ease;
 }
 .columna2{
     width: 100%;
-    max-width: 200px;
+    max-width: 220px;
     height: 200px;
 }
 .imagen-scar{
@@ -579,8 +578,8 @@ transition: .5s ease;
     }
     .fila-general .imagen-scar_logo{
         width: 100%;
-        max-width: 400px;
-        height: 150px;
+        max-width: 340px;
+        height: 80px;
     }
     .svg1{
         height: 105px;
