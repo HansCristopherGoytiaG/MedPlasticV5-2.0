@@ -210,7 +210,7 @@
   window.addEventListener("scroll", function () {
     let animation1 = document.querySelector(".opacidad9");
     let posicionObj1 = animation1.getBoundingClientRect().top;
-    let pantalla1 = window.innerHeight / 2;
+    let pantalla1 = window.innerHeight / 1;
     console.log(posicionObj1);
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "opacity 1.5s ease";
@@ -226,7 +226,6 @@
     if (posicionObj1 < pantalla1) {
       animation1.style.animation = "movimiento-left 1.5s ease";
       animation1.style.opacity = "9";
-
     }
   });
   window.addEventListener("scroll", function () {

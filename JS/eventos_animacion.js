@@ -115,4 +115,17 @@ overlay_3.classList.remove("emergente");
 
     
 
+const cerrar_video = document.getElementById("cerrar_video");
+const fondo_transparencia = document.querySelector(".fondo-transparencia");
 
+const click_scar = document.querySelector(".click-scar");
+
+click_scar.addEventListener("click",function(){
+    fondo_transparencia.classList.add("aparicion");
+
+});
+cerrar_video.addEventListener("click",function(){
+
+        fondo_transparencia.classList.remove("aparicion");
+
+});
