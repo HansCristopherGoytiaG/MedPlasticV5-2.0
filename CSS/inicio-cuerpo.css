@@ -488,6 +488,7 @@ transition: .5s ease;
     color: #fff;
     letter-spacing: 1px;
     margin-left: -5px;
+    font-size: 16px;
 }
 .color-texto{
     color: #02706d;
@@ -588,7 +589,13 @@ transition: .5s ease;
     .svg2{
         height: 65px;
     }
-
+    .exclusivo{
+        height: 50px;
+        max-width: 350px;
+    }
+    .exclusivo h4{
+        font-size: 24px;
+    }
 }
 @media(min-width: 1150px){
     
