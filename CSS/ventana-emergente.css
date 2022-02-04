@@ -125,12 +125,16 @@ opacity: 9;
 .fondo__video{
     position: absolute;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     height: 400px;
     background: #f1f1f1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+.fondo__video video{
+    width: 400px;
+    height: inherit;
 }
 @media(min-width:750px){
     .producto-informacion{
