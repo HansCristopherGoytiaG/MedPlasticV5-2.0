@@ -3,6 +3,9 @@
     width: 100%;
 
 }
+hr{
+    margin-top: 2px !important;
+}
 .cuerpo-sobre{
     width: 100%;
     display: flex;
@@ -254,7 +257,7 @@ transition: .5s ease;
     text-decoration: none;
     border-radius: 10px;
     transition: .5s ease;
-    box-shadow: 5px 8px 10px #2828285b;
+    box-shadow: 3px 3px 10px #2828285b;
     opacity: 0;
 }
 .productos .enlaces:hover{
