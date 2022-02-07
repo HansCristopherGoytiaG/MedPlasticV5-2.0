@@ -24,6 +24,7 @@ botonmenu.addEventListener("click",function(){
 cross.addEventListener("click",function(){
     menu.classList.remove("opacidad");
 })
+
 let indice = 1;
 muestraSlides(indice);
 
@@ -129,3 +130,6 @@ cerrar_video.addEventListener("click",function(){
         fondo_transparencia.classList.remove("aparicion");
 
 });
+
+
+

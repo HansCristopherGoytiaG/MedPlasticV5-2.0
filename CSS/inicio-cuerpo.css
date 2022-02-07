@@ -511,6 +511,9 @@ transition: .5s ease;
     fill: #00a39e65;
     z-index: 4;
 }
+.svg1 svg, .svg2 svg{
+
+}
 .svg2{
     height: 45px;
     position: absolute;
