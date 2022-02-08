@@ -372,6 +372,11 @@ transition: .5s ease;
     border-radius: 10px;
     border: 2px solid white;
 }
+
+
+
+
+
 .publicidad-scar-md{
     display: block;
     background: url(../IMG/SCAR_MED/FONDO_SCARMD.png);
@@ -415,6 +420,7 @@ transition: .5s ease;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background: #00928c;
 }
 .columna-titulo{
     width: inherit;
@@ -432,102 +438,17 @@ transition: .5s ease;
 .color-lema{
     margin-bottom: 20px;
 }
-.grupo-botones{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.grupo-botones a{
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: .3s ease all;
 
-}
-.boton-exclusivo{
-    background: linear-gradient(rgba(7, 141, 136,.9), rgba(0, 40, 71,.8));
-    color: #fff;
-}
-.boton-exclusivo:hover{
-    background: linear-gradient(rgba(11, 185, 180, 0.9),rgba(2, 71, 124, 0.8));
-    transition: 0.5s ease;
-}
-.boton-consulta{
-    border: 2px solid #585858 !important; 
-    color: #000000;
-}
-.boton-consulta:hover{
-    border: 2px solid #585858 !important; 
-    background: rgba(128, 128, 128, 0.329);
-    color: #ffffff;
-}
-.columna2{
-    width: 100%;
-    max-width: 220px;
-    height: 200px;
-}
-.imagen-scar{
-    width: inherit;
-    height: inherit;
-    cursor: pointer;
-}
-.imagen-scar img{
-    width: inherit;
-    height: inherit;
-}
-.exclusivo{
-    display: inline-block;
-    padding: 10px 15px;
-    clip-path: polygon(94% 0, 85% 50%, 94% 100%, 0 100%, 0% 50%, 0 0);
-    background: linear-gradient( rgba(100, 75, 170,.6), rgba(99, 75, 165,.5));
-    height: 40px;
-    width: 100%;
-    max-width: 250px;
-}
 .exclusivo h4{
     color: #fff;
     letter-spacing: 1px;
     margin-left: -5px;
     font-size: 16px;
 }
-.color-texto{
-    color: #02706d;
-    font-weight: bold;
-    font-size: 24px;
-}
-.svg1{
-    height: 85px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-}
-.svg1 path{
-    stroke: none;
-    fill: #00a39e65;
-    z-index: 4;
-}
-.svg1 svg, .svg2 svg{
 
-}
-.svg2{
-    height: 45px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    width: 80%;
-    max-width: 700px;
-}
-.svg2 path{
-   z-index: 99;
-   fill: #002847b0;
-}
+
+
+
 @media(min-width: 720px){
     .sobre-lema{
         margin: 20px 0;
@@ -589,12 +510,6 @@ transition: .5s ease;
         width: 100%;
         max-width: 200px;
         height: 80px;
-    }
-    .svg1{
-        height: 105px;
-    }
-    .svg2{
-        height: 65px;
     }
     .exclusivo{
         height: 50px;

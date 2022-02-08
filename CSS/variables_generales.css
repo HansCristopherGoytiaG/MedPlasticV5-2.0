@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 :root{
---titulo-banner: 72px;
+--titulo-banner: 64px !important;
 --parrafo-banner: 18px;
 --boton: 18px;
 --iconos: 24px;
