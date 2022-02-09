@@ -25,9 +25,6 @@
     font-size: 18px;
     color: #fff;
 }
-.menu-interno{
-
-}
 .vinetas{
     display: flex;
     flex-direction: column;
@@ -36,7 +33,7 @@
     position: fixed;
     top: 50%;
     right: 0;
-    height: 200px;
+    height: 250px;
     background: linear-gradient( rgba(130, 119, 170, 0.815), rgba(150, 150, 150, 0.692));
     backdrop-filter: blur(10px);
     transform: translateY(-50%) scale(0);

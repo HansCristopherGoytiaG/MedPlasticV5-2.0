@@ -51,6 +51,9 @@
   width: 100%;
   height: 200px;
 }
+.bloque .parrafo b{
+  font-size: 14px;
+}
 .imagen iframe {
   width: inherit;
   height: inherit;

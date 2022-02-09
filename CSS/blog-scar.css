@@ -1,0 +1,133 @@
+.cuerpo{
+    display: block;
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.cuerpo__fila{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cuerpo__fila .fila__columna{
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+}
+.cuerpo__fila .fila__columna:nth-child(2){
+padding: 10px;
+}
+.cuerpo__fila:nth-child(2){
+    flex-direction: row;
+}
+.columna__tema{
+    display: block;
+    margin: 20px auto 0 auto;
+}
+ hr{
+    width: 100%;
+    max-width: 120px;
+    margin: 10px auto 20px auto;
+    border: 1px solid var(--color-cuarto);
+}
+.cuerpo__subtitulo hr{
+    margin: 10px auto;
+}
+.columna__tema h3{
+    color: var(--color-quinto);
+    text-align: center;
+    font-size: 22px;
+}
+
+h2{
+    color: var(--color-quinto);
+    margin-top: 20px;
+    text-align: center;
+}
+.columna__contenido{
+    width: 100%;
+    max-width: 700px;
+}
+.cuerpo__presentaciones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cuerpo__presentaciones .fila__columna{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+}
+.cuerpo__presentaciones .fila__columna:nth-child(2){
+flex-flow: row-reverse wrap;
+}
+
+.imagen__scar-md{
+    width: 100%;
+    max-width: 300px;
+}
+.imagen__scar-md img{
+    width: 100%;
+}
+.columna__contenido{
+    max-width: 550px;
+}
+.contenido{
+    font-size: 16px !important;
+    text-align: justify;
+    padding: 10px;
+}
+.fila__columna iframe{
+    width: 100%;
+    max-width: 550px;
+}
+.cuerpo__compra{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+.cuerpo__compra .fila__columna{
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.cuerpo__compra .columna__contenido{
+    padding: 10px;
+    max-width: 300px;
+    margin-top: 10px;
+}
+p{
+   display: block;
+}
+@media(min-width:750px){
+    .columna__tema{
+        padding: 0 10px;
+        margin-left:  0;
+    }
+    h3{
+        text-align: left;
+    }
+    .columna__tema hr{
+        margin: 10px auto 20px 0;
+    }
+}

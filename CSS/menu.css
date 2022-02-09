@@ -56,7 +56,7 @@ html{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    animation:  scale-animation 1s linear;
+    animation:  movimiento-right 1s linear;
 
 }
 .navegacion #botonmenu .navbar{

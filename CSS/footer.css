@@ -153,6 +153,12 @@ font-size: 14px;
 .iconos div:nth-child(1):hover{
     background: #5782e0;
 }
+.iconos div:nth-child(4){
+    background: #ce2121;
+}
+.iconos div:nth-child(4):hover{
+    background: #c44747;
+}
 .iconos div a{
     text-decoration: none;
     font-size: 19px;
