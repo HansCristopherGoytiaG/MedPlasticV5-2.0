@@ -11,12 +11,20 @@ h1{
 .cuerpo__fila{
     display: flex;
     flex-flow: row-reverse wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     width: 100%;
     margin-bottom: 20px;
+    max-width: 1110px;
+    margin: 10px auto;
 }
-
+.cuerpo__fila:nth-child(3){
+    background-color: var(--color-quinto);
+    color: #fff;
+}
+.cuerpo__fila:nth-child(3) h3{
+    color: #fff;
+}
 .cuerpo__fila .fila__columna{
     width: 100%;
     max-width: 550px;
@@ -95,7 +103,7 @@ flex-flow: row-reverse wrap;
 }
 .fila__columna iframe{
     width: 100%;
-    max-width: 550px;
+    height: 400px;
 }
 .cuerpo__compra{
     display: flex;

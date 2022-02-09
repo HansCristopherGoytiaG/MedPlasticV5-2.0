@@ -71,14 +71,15 @@ html{
     color: #072641;
     font-size: 20px;
 }
-.lema{
-    padding: 10px 15px;
-    background-color: #083c69;
-}
-.lema .parrafo{
-    color: #fff;
-    font-size: 14px;
-    text-align: justify;
+
+.grupo-botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
 }
 .cuerpo__cajas{
 display: flex;
